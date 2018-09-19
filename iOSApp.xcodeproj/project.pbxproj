@@ -14,6 +14,7 @@
 		B38627A6215296660039063E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38627A4215296660039063E /* LaunchScreen.storyboard */; };
 		B38627B1215296660039063E /* iOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38627B0215296660039063E /* iOSAppTests.swift */; };
 		B38627BC215296660039063E /* iOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38627BB215296660039063E /* iOSAppUITests.swift */; };
+		B38627CA215299C60039063E /* donation_station.png in Resources */ = {isa = PBXBuildFile; fileRef = B38627C9215299C60039063E /* donation_station.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B38627B7215296660039063E /* iOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38627BB215296660039063E /* iOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppUITests.swift; sourceTree = "<group>"; };
 		B38627BD215296660039063E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38627C9215299C60039063E /* donation_station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = donation_station.png; path = ../../donation_station.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B386279A215296650039063E /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				B38627C9215299C60039063E /* donation_station.png */,
 				B386279B215296650039063E /* AppDelegate.swift */,
 				B386279D215296650039063E /* ViewController.swift */,
 				B386279F215296650039063E /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38627CA215299C60039063E /* donation_station.png in Resources */,
 				B38627A6215296660039063E /* LaunchScreen.storyboard in Resources */,
 				B38627A3215296660039063E /* Assets.xcassets in Resources */,
 				B38627A1215296650039063E /* Main.storyboard in Resources */,
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T644R8BQD;
 				INFOPLIST_FILE = iOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T644R8BQD;
 				INFOPLIST_FILE = iOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
